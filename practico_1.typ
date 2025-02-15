@@ -156,7 +156,7 @@ $
 $
 
 #figure(
-  image("1_sen2x.jpg", width: 90%),
+  image("/Imagenes/1_sen2x.jpg", width: 90%),
   caption: [
     $sin(2x)$
   ],
@@ -166,7 +166,7 @@ $
 == $ "b)" pi/6 lt.eq integral_(pi/6)^(pi/2) sin(x) dif x lt.eq pi/3 $
 Esto es se puede ver apróximando el area por izquierda y por derecha. Tenemos que si tomo un rectángulo de ancho $pi/3$, El menor área posible es $pi/6$. Si tomamos el mayor área posible por derecha nos da $pi/6$. Luego el valor real del área debe estar entre esos dos números.
 #figure(
-  image("2_senx.jpg", width: 65%),
+  image("/Imagenes/2_senx.jpg", width: 65%),
   caption: [
     $sin(x)$
   ],
@@ -176,7 +176,7 @@ Esto es se puede ver apróximando el area por izquierda y por derecha. Tenemos q
 Basta con ver el gráfico. En ese interválo, el área mínima de $sqrt(5-x)$ es igual al área máxima $sqrt(x+1)$. Luego por una cadena desigualdades tenemos que el resultado es verdadero.
 
 #figure(
-  image("3_raiz.jpg", width: 80%),
+  image("/Imagenes/3_raiz.jpg", width: 80%),
   caption: [ Aproximación del área.
   
   ],
@@ -205,7 +205,7 @@ $
 == $ "c)" f(x)= integral_(sqrt(x))^(x^3) (t+1)/(sqrt(1+2^t)) dif t $
 
 #figure(
-  image("4_raiz_y_cubica.png", width: 60%),
+  image("/Imagenes/4_raiz_y_cubica.png", width: 60%),
   caption: [ $u(x)$ y $v(x)$.
   
   ],
@@ -539,7 +539,7 @@ $
 Trazar la región limitada por las curvas dadas y calcular su área:
 == $ "a) " y = 4x^2, quad y = x^2+3 $
 #figure(
-  image("5-9_a.png", width: 50%),
+  image("/Imagenes/5-9_a.png", width: 50%),
   caption: [ Reprentación del área.
   
   ],
@@ -561,7 +561,7 @@ $
 
 == $ "b) " y = cos(x), quad y = sin(x), quad x=0, quad x=pi/2 $
 #figure(
-  image("5-9_b.png", width: 50%),
+  image("/Imagenes/5-9_b.png", width: 50%),
   caption: [ Reprentación del área.
   
   ],
@@ -584,7 +584,7 @@ Luego el área es $2sqrt(2) - 2$.
 
 == $ "c) " y = |x|, quad y = (x+1)^2-7, quad x=-4 $
 #figure(
-  image("5-9_c.png", width: 50%),
+  image("/Imagenes/5-9_c.png", width: 50%),
   caption: [ Reprentación del área.
   
   ],
